@@ -1,0 +1,76 @@
+/*.container{
+    display: flex;
+    flex-direction: column;
+    background-color: cadetblue;
+    justify-content: center;
+}
+.margin{
+    margin: 0;
+    position: relative;
+    height: 200vh;
+}
+.position{
+    background-color: rgb(227, 227, 111);
+    position: fixed;
+    top: 0;
+}
+.second{
+    position: absolute;
+    top: 0;
+    background-color: blueviolet;
+    
+}*/
+nav {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  justify-content: space-around;
+  font-weight: 600;
+  position: fixed;
+  width: 100%;
+  top: 10px;
+}
+
+#center {
+  display: flex;
+  gap: 20px;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 30px;
+  padding: 0 50px;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-image: url("https://images.unsplash.com/photo-1498049860654-af1a5c566876?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  position: relative;
+  background-size: cover;
+  height: 200vh;
+}
+#right {
+  justify-content: space-evenly;
+}
+#left {
+  background-color: rgb(12, 81, 63);
+  color: yellow;
+  border-radius: 30px;
+  padding: 15px 50px;
+}
+#shop {
+  background-color: rgb(24, 201, 154);
+  border-radius: 30px;
+}
+.lorem{
+  background-color: rgb(86, 82, 214);
+  position: absolute;
+  width: 20rem;
+}
+.lorem2{
+  background-color: rgb(216, 125, 125);
+  position: fixed;
+  z-index: 2;
+}
+main{
+  margin-top: 20rem;
+  display: flex;
+}
